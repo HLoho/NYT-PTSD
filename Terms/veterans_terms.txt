@@ -1,0 +1,5 @@
+(veteran OR soldier OR military OR "armed forces") AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+(veteran OR soldier OR military OR "armed forces") AND "shell shock"
+(veteran OR soldier OR military OR "armed forces") AND "battle fatigue"
+(veteran OR soldier OR military OR "armed forces") AND ("post-Vietnam syndrome" OR "Vietnam syndrome")
+(veteran OR soldier OR military OR "armed forces") AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD" OR "shell shock" OR "battle fatigue" OR "post-Vietnam syndrome" OR "Vietnam syndrome")

@@ -1,0 +1,5 @@
+(veteran or soldier or military or armedforces) AND PTSD
+(veteran or soldier or military or armedforces) AND shell shock
+(veteran or soldier or military or armedforces) AND battle fatigue
+(veteran or soldier or military or armedforces) AND (post) Vietnam syndrome
+(vets*) AND PTSD_all_forms
