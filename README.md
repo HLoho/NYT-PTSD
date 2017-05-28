@@ -24,5 +24,8 @@ Folders:
 * Figure 1
 * Figure 2
 
+5.**Terms**
+* veterans_terms.txt: used by benchmarker.py to search the API.
+* veterans_disp_terms.txt: used by benchmarker.py as shorter versions of the search query for convenience.
 Please feel free to email me if you have any questions, or if you spot anything that isn't working: hieronimus.loho@yale.edu
     
