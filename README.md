@@ -6,6 +6,9 @@
 
 
 - This repository contains the all of the code, data, and figures that were involved in our investigation of PTSD and the media.
+- It is maintained by HL, who can be reached at {hieronimus.loho@yale.edu}
+
+
 
 Folders:
 
@@ -32,4 +35,7 @@ Folders:
 * veterans_disp_terms.txt: a list of terms that are just shorter (human readable) versions of the search queries.
 
 Please feel free to email hieronimus.loho@yale.edu if you have any questions, or if you spot anything that isn't working. 
-    
+
+Please do not share or reuse these materials without permission.
+We have no copyright, nor do we have money to pay lawyers to do anything about it,
+but we will be sad, and [tweet](https://twitter.com/itschekkers) everyone we know to tell them you were naughty.
