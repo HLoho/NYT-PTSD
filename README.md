@@ -16,9 +16,11 @@ Folders:
 * PreProcess.R: Takes the raw CSVs created by benchmarker.py, calculates the percentage of articles containing the term, binds data for     all the terms into one big RDS file.
 * total_articles.py: Scrapes the NYT API Article Search for the total number of articles written by the NYT per quarter per year, just as   a reference point so that we can calculate the percentage (in the PreProcess.R script).
 
-2.**CSVs** : Contains all of the CSVs created by benchmarker.py and total_articles.py.
+2.**CSVs** : 
+* hits: Contains all of the CSVs created by benchmarker.py and total_articles.py.
+* other: contains a CSV with the active duty military population and estimated total US population by year. 
 
-3.**Processed Data** : Contains the aggregate RDS made by PreProcess.R that contains all terms. 
+3.**Processed Data** : Contains the two aggregate RDS files made by PreProcess.R that contains all terms, their hits, and yearly percentage.  
 
 4.**Figures** 
 * Figure 1
@@ -27,5 +29,6 @@ Folders:
 5.**Terms**
 * veterans_terms.txt: used by benchmarker.py to search the API.
 * veterans_disp_terms.txt: used by benchmarker.py as shorter versions of the search query for convenience.
+
 Please feel free to email me if you have any questions, or if you spot anything that isn't working: hieronimus.loho@yale.edu
     
