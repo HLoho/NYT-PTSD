@@ -13,9 +13,9 @@
 Folders:
 
 1.**Scripts**:  
-* total_articles.py: This script queries all articles in the NYT API Article Search to determine the total number of articles written per quarter per year. This is used as a denominator for all trends to calculate quarterly percentages of all articles.
-* benchmarker.py: This script accepts a list of terms, queries the archives of the NYT Article Search API, and returns a CSV file for each term that indicates the number of articles (hits) per quarter per year since 1900. 
-* PreProcess.R: This script reads in the raw CSVs created by benchmarker.py, corrects the timeseries for the total number of articles published that quarter, binds data for all terms into one data frame, and returns one (big) RDS file.
+* check_hits_by_term.py: Main script that you give a list of specific queries, and it will: search the NYT Article Search API, and saves a CSV for each term that states the number of articles (hits) per quarter per year since 1900.
+* check_total_hits.py: This script will calculate the total number of articles in the database per quarter per year. You can use these values as a reference point to correct for the upward trend over time whereby more articles are published now than they used to.
+* PreProcess.R: This script reads in the raw CSVs created by check_hits_by_term.py, corrects the timeseries for the total number of articles published that quarter, binds data for all terms into one data frame, and returns one (big) RDS file.
 * vets_plotter.R: Reproduces main Figure 1. 
 * Military_population_analysis.R: Reproduce Figure 2, and confirm pearson correlation between US military population and all mentions of PTSD. 
 
