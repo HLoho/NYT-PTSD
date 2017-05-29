@@ -20,7 +20,7 @@ Folders:
 * Military_population_analysis.R: Reproduce Figure 2, and confirm pearson correlation between US military population and all mentions of PTSD. 
 
 2.**CSVs** : 
-* hits: Contains all of the CSVs created by benchmarker.py and total_articles.py.
+* hits: Contains all of the CSVs created by check_hits_by_term.py and check_total_hits.py.
 * other: Contains a CSV with the active duty military population and estimated total US population by year. 
 
 3.**Processed Data** :
@@ -31,7 +31,7 @@ Folders:
 * Figure 2
 
 5.**Terms of interest**
-* veterans_terms.txt: a list of search terms that were used to query the API (using benchmarker.py).
+* veterans_terms.txt: a list of search terms that were used to query the API (using check_hits_by_term.py).
 * veterans_disp_terms.txt: a list of terms that are just shorter (human readable) versions of the search queries.
 
 Please feel free to email hieronimus.loho@yale.edu if you have any questions, or if you spot anything that isn't working. 
