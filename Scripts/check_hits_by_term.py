@@ -3,7 +3,7 @@
 #for a list of terms loaded from a .txt file. The script can also rotate through a list of NYT API keys. 
 
 
-##### NewYorkTimes python package by Evan Sherlock, slightly modified by Hieronimus Loho
+##### Lines 9-120 are from the NewYorkTimes python package by Evan Sherlock, slightly modified by Hieronimus Loho
 ##### from https://github.com/evansherlock/nytimesarticle 
 
 import requests
@@ -33,7 +33,7 @@ class articleAPI(object):
         """
         
 
-        #******Edit: Got rid of .lower(), because that messes up the Lucene modifiers OR, AND ********************
+        #***Edit by H. Loho: Got rid of .lower(), because that messes up the Lucene modifiers OR, AND ********************
 
 
 
@@ -147,7 +147,7 @@ terms = terms_file.read().split('\n')
 print terms
 
 #Load a separate file of list of shortened/clean search terms that are easier to display
-display_file = open("/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/terms/veterans_disp_terms.txt", "r")
+display_file = open("/Users/hieronimusloho/Box Sync/Research Stuff/NYT-PTSD/Terms/veterans_disp_terms.txt", "r")
 disp_terms = display_file.read().split('\n')
 
 #Where the CSVs will be written out

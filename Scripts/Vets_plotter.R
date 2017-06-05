@@ -1,4 +1,5 @@
 #Veterans and PTSD NYT Subproject Scripts
+#Adam Chekroud and Hieronimus Loho
 
 #Housekeeping
 libs <- c("tidyverse", "RColorBrewer","stringr", "foreach", "forcats", "dplyr")
@@ -15,8 +16,7 @@ vets.ptsd.bf.ss.vs.yearly <- all.yearly %>%
   filter(term == "(vets*) AND PTSD" |
            term == "(vets*) AND battle fatigue" |
            term == "(vets*) AND shell shock" |
-           term == "(vets*) AND (post) Vietnam syndrome" |
-           term == "(vets*) AND PTSD_all_forms")
+           term == "(vets*) AND (post) Vietnam syndrome")
  
 #Re-level terms 
 vets.ptsd.bf.ss.vs.yearly$term <- fct_relevel(vets.ptsd.bf.ss.vs.yearly$term, c("(vets*) AND shell shock",
@@ -24,12 +24,13 @@ vets.ptsd.bf.ss.vs.yearly$term <- fct_relevel(vets.ptsd.bf.ss.vs.yearly$term, c(
                                               "(vets*) AND (post) Vietnam syndrome", 
                                               "(vets*) AND PTSD"))
 
+#Set color scheme in the dataframe
 vets.ptsd.bf.ss.vs.yearly$color <- c(rep("#e41a1c", 117),
                                      rep("#377eb8", 117),
                                      rep("#4daf4a", 117),
                                      rep("#984ea3", 117))
 
-#Facet wrapped plot of ptsd, battle fatigue, shell shcok and Vietnam syndrome
+#Facet wrapped plot of ptsd, battle fatigue, shell shock and Vietnam syndrome
 vets.ptsd_all_forms.yearly.1900.facet.plot <- vets.ptsd.bf.ss.vs.yearly %>%
   ggplot(aes(x = year, y = yearly_percentage, color = color)) +
   facet_wrap(~term, ncol = 1, scales = "free_y") +
@@ -58,5 +59,5 @@ vets.ptsd_all_forms.yearly.1900.facet.plot <- vets.ptsd.bf.ss.vs.yearly %>%
 
 #Save the graphs 
 ggsave(vets.ptsd_all_forms.yearly.1900.facet.plot, 
-       file = "Figures/Figure1.pdf",
-       height = 7.07, width = 11)
+        file = "Figures/Figure1.pdf",
+        height = 7.07, width = 11)

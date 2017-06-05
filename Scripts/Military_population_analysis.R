@@ -10,12 +10,13 @@ setwd("/Users/hieronimusloho/Box Sync/Research Stuff/NYT-PTSD")
 all.yearly <- readRDS(file = "Processed_Data/all_terms_hits.yearly.RDS")
 mil.pop <- read_csv(file = "CSVs/other/Mil.Vs.Total.Pop.csv")
 
-#Logscaled cross correlation of US military population percentage
+#Correlation of US military population percentage with PTSD (all forms) mentions
+#Not significant p = 0.404
 ptsd_all_forms_.vs.mil.pop.corr <- cor.test(mil.pop$mil_percent, 
                                                 (filter(all.yearly, term == "(vets*) AND PTSD_all_forms"))$yearly_percentage,
                                                 method = "pearson")
 
-###Lifted from R-CookBook: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/ 
+###Function borrowed from R-CookBook: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/ 
 # Multiple plot function
 #
 # ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
@@ -91,7 +92,7 @@ ptsd_all_forms.yearly.plot <- all.yearly %>%
           subtitle = "NYT, Reuters, and AP sources, 1900-2016 \nvets* = 'veteran or soldier or military or armedforces'")
 
 
-#Combine the two plots together
+#Combine the two plots together and save
 multiplot(ptsd_all_forms.yearly.plot, mil.pop.yearly.plot)
 dev.copy(pdf,"Figures/PTSD/ptsd_all_forms.vs.mil.pop.yearly.percent.pdf")
 dev.copy(postscript,"Figures/PTSD/ptsd_all_forms.vs.mil.pop.yearly.percent.eps")

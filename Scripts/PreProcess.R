@@ -51,7 +51,6 @@ all$term <- as.factor(all$term)
 all$term <- all$term %>%
   plyr::revalue(c(
     "veteran.soldier.military.armedforces AND PTSD" = "(veteran or soldier or military or armedforces) AND PTSD",
-    "veteran.soldier.military.armedforces AND mental health.mental illness" = "(veteran or soldier or military or armedforces) AND mental health or mental illness",
     "veteran.soldier.military.armedforces AND shell shock" = "(veteran or soldier or military or armedforces) AND shell shock",
     "veteran.soldier.military.armedforces AND battle fatigue" = "(veteran or soldier or military or armedforces) AND battle fatigue")) %>%
   sub("(veteran or soldier or military or armedforces)", "vets*", .)
