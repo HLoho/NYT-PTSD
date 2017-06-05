@@ -10,14 +10,15 @@
 
 
 
-Folders:
+**Folders**:
 
 1.**Scripts**:  
-* check_hits_by_term.py: Main script that you give a list of specific queries, and it will: search the NYT Article Search API, and saves a CSV for each term that states the number of articles (hits) per quarter per year since 1900.
+* check_hits_by_term.py: Main script that you give a list of specific queries, and it will: search the NYT Article Search API and save a CSV for each term that states the number of articles (hits) per quarter per year since 1900 (or any specified year).
 * check_total_hits.py: This script will calculate the total number of articles in the database per quarter per year. You can use these values as a reference point to correct for the upward trend over time whereby more articles are published now than they used to.
+* Military_population_analysis.R: Reproduces Figure 2, and confirms pearson correlation between US military population and all mentions of PTSD. 
 * PreProcess.R: This script reads in the raw CSVs created by check_hits_by_term.py, corrects the timeseries for the total number of articles published that quarter, binds data for all terms into one data frame, and returns one (big) RDS file.
 * vets_plotter.R: Reproduces main Figure 1. 
-* Military_population_analysis.R: Reproduce Figure 2, and confirm pearson correlation between US military population and all mentions of PTSD. 
+
 
 2.**CSVs** : 
 * hits: Contains all of the CSVs created by check_hits_by_term.py and check_total_hits.py.
