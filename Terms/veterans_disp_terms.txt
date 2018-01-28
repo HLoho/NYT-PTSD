@@ -1,5 +1,26 @@
-(veteran or soldier or military or armedforces) AND PTSD
-(veteran or soldier or military or armedforces) AND shell shock
-(veteran or soldier or military or armedforces) AND battle fatigue
-(veteran or soldier or military or armedforces) AND (post) Vietnam syndrome
-(vets*) AND PTSD_all_forms
+(vets*) AND PTSD
+(vets*) AND shell shock
+(vets*) AND combat stress reaction
+(vets*) AND battle fatigue
+(vets*) AND soldier's heart
+(vets*) AND gross stress reaction
+(vets*) AND battle exhaustion
+(vets*) AND (post) Vietnam syndrome
+(vets*) AND neurasthenia
+(vets*) AND effort syndrome
+(vets*) AND Disordered_Action_of_Heart
+(vets*) AND traumatic neurosis
+(vets*) AND anxiety neurosis
+(vets*) AND lack of moral fibre
+(vets*) AND perpetual bogey
+(vets*) AND camp disease
+(vets*) AND barbed-wire disease
+(vets*) AND barbed-wire psychosis
+(vets*) AND psychasthenia
+(vets*) AND vegetative neurosis
+(vets*) AND war_neurosis
+(vets*) AND railway spine
+(vets*) AND battle dream
+(vets*) AND bomb neurosis
+(vets*) AND hyperemotivity
+(vets*) AND functional nervous disorder

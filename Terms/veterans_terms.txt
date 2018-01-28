@@ -1,5 +1,26 @@
 (veteran OR soldier OR military OR "armed forces") AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
 (veteran OR soldier OR military OR "armed forces") AND "shell shock"
+(veteran OR soldier OR military OR "armed forces") AND "combat stress reaction"
 (veteran OR soldier OR military OR "armed forces") AND "battle fatigue"
+(veteran OR soldier OR military OR "armed forces") AND "soldier's heart"
+(veteran OR soldier OR military OR "armed forces") AND "gross stress reaction"
+(veteran OR soldier OR military OR "armed forces") AND "battle exhaustion"
 (veteran OR soldier OR military OR "armed forces") AND ("post-Vietnam syndrome" OR "Vietnam syndrome")
-(veteran OR soldier OR military OR "armed forces") AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD" OR "shell shock" OR "battle fatigue" OR "post-Vietnam syndrome" OR "Vietnam syndrome")
+(veteran OR soldier OR military OR "armed forces") AND "neurasthenia"
+(veteran OR soldier OR military OR "armed forces") AND "effort syndrome"
+(veteran OR soldier OR military OR "armed forces") AND "Disordered Action of the Heart"
+(veteran OR soldier OR military OR "armed forces") AND "traumatic neurosis"
+(veteran OR soldier OR military OR "armed forces") AND "anxiety neurosis"
+(veteran OR soldier OR military OR "armed forces") AND "lack of moral fibre"
+(veteran OR soldier OR military OR "armed forces") AND "perpetual bogey"
+(veteran OR soldier OR military OR "armed forces") AND "camp disease"
+(veteran OR soldier OR military OR "armed forces") AND "barbed-wire disease"
+(veteran OR soldier OR military OR "armed forces") AND "barbed-wire psychosis"
+(veteran OR soldier OR military OR "armed forces") AND "psychasthenia"
+(veteran OR soldier OR military OR "armed forces") AND "vegetative neurosis"
+(veteran OR soldier OR military OR "armed forces") AND "war neurosis"
+(veteran OR soldier OR military OR "armed forces") AND "railway_spine"
+(veteran OR soldier OR military OR "armed forces") AND ("battle dream" OR "battle dreams")
+(veteran OR soldier OR military OR "armed forces") AND "bomb neurosis"
+(veteran OR soldier OR military OR "armed forces") AND "hyperemotivity"
+(veteran OR soldier OR military OR "armed forces") AND "functional nervous disorder"
