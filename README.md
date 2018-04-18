@@ -5,7 +5,7 @@
 ----------------------------------------
 
 
-- This repository contains the all of the code, data, and figures that were involved in our investigation of PTSD and the media.
+- This repository contains the all of the code, data, and figures that were involved in our investigation of PTSD and the media. [Chekroud, A. M., Loho, H., Paulus, M., & Krystal, J. H. (2018). PTSD and the War of Words. Chronic Stress, 2, 2470547018767387. https://doi.org/10.1177/2470547018767387]
 - It is maintained by HL, who can be reached at {hieronimus.loho@yale.edu}
 
 
